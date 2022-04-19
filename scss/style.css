@@ -9,7 +9,6 @@ body {
 
 a {
   -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
   transition: .3s all ease;
   text-decoration: none;
 }
@@ -29,12 +28,9 @@ header {
   left: 0;
   width: 100%;
   z-index: 5;
-  background: #ffffff;
+  
 }
 
-.bg_red{
-  background-color: #8f0b0b;
-}
 header .navbar-brand {
   text-transform: uppercase;
   letter-spacing: .2em;
@@ -61,10 +57,6 @@ header .navbar .nav-link {
   outline: none !important;
 }
 
-.nav-item a{
-  color: #000 !important;
-}
-
 @media (max-width: 991.98px) {
   header .navbar .nav-link {
     padding: .5rem .5rem;
@@ -76,7 +68,7 @@ header .navbar .nav-link:hover {
 }
 
 header .navbar .nav-link.active {
- /* color: #fff !important;*/
+  color: #fff !important;
 }
 
 header .navbar .dropdown.show > a {
@@ -88,7 +80,7 @@ header .navbar .dropdown-menu {
   border-radius: 0px;
   border: none;
   -webkit-box-shadow: 0 2px 30px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 2px 30px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 30px 0px rgba(0, 0, 0, 0.2);
   min-width: 13em;
   margin-top: -10px;
 }
@@ -118,22 +110,18 @@ header .navbar .dropdown-menu a {
 }
 
 header .navbar.navbar-light .nav-link {
-  color: rgba(0, 0, 0, 0.5)
+  color: #fff;
 }
 
 header .navbar.navbar-light .nav-link.active {
-  color: rgba(0, 0, 0, 0.5)
+  color: #fff;
 }
 
 .site-hero {
-  background-size: cover !important;
+  background-size: cover;
   background-position: center center;
   min-height: 750px;
   height: 100vh;
- background: url(/images/arena-hc-logo-on-ice.jpg);
- background-repeat: no-repeat;
- width: 100%;
- height: auto;
 }
 
 .site-hero > .container {
@@ -251,7 +239,6 @@ header .navbar.navbar-light .nav-link.active {
   position: relative;
   top: 0;
   -webkit-transition: .2s all ease;
-  -o-transition: .2s all ease;
   transition: .2s all ease;
 }
 
@@ -270,7 +257,6 @@ header .navbar.navbar-light .nav-link.active {
   opacity: .1;
   position: absolute;
   -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
   transition: .3s all ease;
 }
 
@@ -281,8 +267,7 @@ header .navbar.navbar-light .nav-link.active {
   text-align: center;
   width: 80%;
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .feature-destination .img-bg .text .icon, .slider-wrap .img-bg .text .icon {
@@ -290,14 +275,12 @@ header .navbar.navbar-light .nav-link.active {
   font-size: 30px;
   position: relative;
   -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
   transition: .3s all ease;
   top: 0;
 }
 
 .feature-destination .img-bg .text h2, .slider-wrap .img-bg .text h2 {
   -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
   transition: .3s all ease;
   margin: 0;
   padding: 0;
@@ -316,14 +299,13 @@ header .navbar.navbar-light .nav-link.active {
   font-size: 13px;
   position: relative;
   -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
   transition: .3s all ease;
 }
 
 .feature-destination .img-bg:hover, .feature-destination .img-bg:focus, .slider-wrap .img-bg:hover, .slider-wrap .img-bg:focus {
   top: -10px;
   -webkit-box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.4);
-  box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.4);
 }
 
 .feature-destination .img-bg:hover .text .icon, .feature-destination .img-bg:focus .text .icon, .slider-wrap .img-bg:hover .text .icon, .slider-wrap .img-bg:focus .text .icon {
@@ -357,10 +339,9 @@ header .navbar.navbar-light .nav-link.active {
   border-radius: 50%;
   top: 50%;
   -webkit-box-shadow: 0 0 50px -10px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 50px -10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 50px -10px rgba(0, 0, 0, 0.2);
   -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+          transform: translateY(-50%);
   right: -30px;
 }
 
@@ -371,8 +352,7 @@ header .navbar.navbar-light .nav-link.active {
 @media (max-width: 767.98px) {
   .video-wrap .btn-video {
     -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     right: 0;
     left: 50%;
     top: 100%;
@@ -384,8 +364,7 @@ header .navbar.navbar-light .nav-link.active {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .custom-nav .btn span {
@@ -429,7 +408,6 @@ header .navbar.navbar-light .nav-link.active {
 .top-destination .place {
   display: block;
   -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
   transition: .3s all ease;
 }
 
@@ -455,7 +433,7 @@ header .navbar.navbar-light .nav-link.active {
 .btn, .form-control {
   outline: none;
   -webkit-box-shadow: none !important;
-  box-shadow: none !important;
+          box-shadow: none !important;
   border-radius: 0;
 }
 
@@ -465,7 +443,7 @@ header .navbar.navbar-light .nav-link.active {
 
 .form-control {
   -webkit-box-shadow: none !important;
-  box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 textarea.form-control {
@@ -474,7 +452,6 @@ textarea.form-control {
 
 .btn {
   -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
   transition: .3s all ease;
   padding: 12px 30px;
 }
@@ -521,7 +498,7 @@ textarea.form-control {
 
 .btn:hover {
   -webkit-box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
-  box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
+          box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
 }
 
 .custom-icon:before, .custom-icon:after {
@@ -552,8 +529,7 @@ textarea.form-control {
 .owl-carousel .owl-nav .owl-next {
   position: absolute;
   -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+          transform: translateY(-50%);
   margin-top: -10px;
 }
 
@@ -602,7 +578,6 @@ textarea.form-control {
   opacity: 0;
   visibility: hidden;
   -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
   transition: .3s all ease;
 }
 
@@ -704,7 +679,6 @@ textarea.form-control {
   outline: none !important;
   position: relative;
   -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
   transition: .3s all ease;
 }
 
@@ -723,7 +697,6 @@ textarea.form-control {
 
 .owl-carousel.major-caousel .owl-nav .owl-prev, .owl-carousel.major-caousel .owl-nav .owl-next {
   -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
   transition: .3s all ease;
   color: #495057;
 }
@@ -777,7 +750,6 @@ textarea.form-control {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
   transition: .3s all ease;
 }
 
@@ -788,7 +760,6 @@ textarea.form-control {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
   transition: .3s all ease;
 }
 
@@ -796,7 +767,6 @@ textarea.form-control {
   font-size: 18px;
   font-family: "Roboto", arial, sans-serif;
   -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
   transition: .3s all ease;
 }
 
@@ -927,8 +897,7 @@ textarea.form-control {
   height: 2px;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+          transform: translateX(-50%);
   background: #ff6d24;
 }
 
@@ -940,13 +909,12 @@ textarea.form-control {
   display: block;
   position: relative;
   -webkit-box-shadow: 4px 4px 70px -20px rgba(0, 0, 0, 0.5);
-  box-shadow: 4px 4px 70px -20px rgba(0, 0, 0, 0.5);
+          box-shadow: 4px 4px 70px -20px rgba(0, 0, 0, 0.5);
 }
 
 .media-feature {
   padding: 20px;
   -webkit-transition: .2s all ease-out;
-  -o-transition: .2s all ease-out;
   transition: .2s all ease-out;
   background: #fff;
   z-index: 1;
@@ -969,7 +937,7 @@ textarea.form-control {
 .media-feature:hover, .media-feature:focus {
   border: 1px solid transparent;
   -webkit-box-shadow: 0 2px 20px -3px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 2px 20px -3px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 2px 20px -3px rgba(0, 0, 0, 0.3);
 }
 
 #accordion .card {
@@ -984,7 +952,7 @@ textarea.form-control {
   color: #ff6d24;
   position: relative;
   -webkit-box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
-  box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
+          box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
   border-radius: 0;
 }
 
@@ -993,37 +961,34 @@ textarea.form-control {
   right: 20px;
   top: 50%;
   -webkit-transform: translateY(-50%) rotate(-180deg);
-  -ms-transform: translateY(-50%) rotate(-180deg);
-  transform: translateY(-50%) rotate(-180deg);
+          transform: translateY(-50%) rotate(-180deg);
   -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
   transition: .3s all ease;
 }
 
 #accordion .card h5 a:hover {
   text-decoration: none;
   -webkit-box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
-  box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
+          box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
 }
 
 #accordion .card h5 a.collapsed {
   color: #000;
   -webkit-box-shadow: none !important;
-  box-shadow: none !important;
+          box-shadow: none !important;
 }
 
 #accordion .card h5 a.collapsed .icon {
   right: 20px;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 #accordion .card h5 a.collapsed:hover {
   text-decoration: none;
   -webkit-box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
-  box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
+          box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.2) !important;
 }
 
 #accordion .card .card-body {
@@ -1135,16 +1100,14 @@ textarea.form-control {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   background-color: rgba(255, 255, 255, 0.9);
   -webkit-box-shadow: 0px 24px 64px rgba(0, 0, 0, 0.24);
-  box-shadow: 0px 24px 64px rgba(0, 0, 0, 0.24);
+          box-shadow: 0px 24px 64px rgba(0, 0, 0, 0.24);
   border-radius: 16px;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: opacity .2s ease-out, visibility 0s linear .2s;
-  -o-transition: opacity .2s ease-out, visibility 0s linear .2s;
   transition: opacity .2s ease-out, visibility 0s linear .2s;
   z-index: 1000;
 }
@@ -1156,17 +1119,15 @@ textarea.form-control {
   width: 100%;
   height: 100%;
   -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
+          transform: none;
   background-color: #fff;
   border-radius: 0;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
 }
 
 #loader.show {
   -webkit-transition: opacity .4s ease-out, visibility 0s linear 0s;
-  -o-transition: opacity .4s ease-out, visibility 0s linear 0s;
   transition: opacity .4s ease-out, visibility 0s linear 0s;
   visibility: visible;
   opacity: 1;
@@ -1174,35 +1135,34 @@ textarea.form-control {
 
 #loader .circular {
   -webkit-animation: loader-rotate 2s linear infinite;
-  animation: loader-rotate 2s linear infinite;
+          animation: loader-rotate 2s linear infinite;
   position: absolute;
   left: calc(50% - 24px);
   top: calc(50% - 24px);
   display: block;
   -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
+          transform: rotate(0deg);
 }
 
 #loader .path {
   stroke-dasharray: 1, 200;
   stroke-dashoffset: 0;
   -webkit-animation: loader-dash 1.5s ease-in-out infinite;
-  animation: loader-dash 1.5s ease-in-out infinite;
+          animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round;
 }
 
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
 
 @keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
 
@@ -1235,3 +1195,4 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+/*# sourceMappingURL=style.css.map */
